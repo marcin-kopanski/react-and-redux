@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const TimerHeader = ((props) => {
-  return <h3>I've been running for: {props.time} seconds</h3>
+  return <h3>Działam od: {props.time} sekund</h3>
 })

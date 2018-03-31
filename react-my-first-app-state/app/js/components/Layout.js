@@ -31,7 +31,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div>
-        <h1>Welcome to my site!</h1>
+        <h1>Welcome to my site!!!!!!!!!</h1>
         <h3>Happy to have you here</h3>
         <h1>{this.state.firstName} {this.state.lastName}</h1>
         <Button firstName={this.state.firstName} changeName={this.changeName.bind(this)} />

@@ -23,7 +23,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-cli -w",
-    "serve": "webpack-dev-server --content-base public --inline"
+    "serve": "webpack-dev-server --content-base public --inline --hot"
   },
   "author": "Marcin Kopanski",
   "license": "ISC"
