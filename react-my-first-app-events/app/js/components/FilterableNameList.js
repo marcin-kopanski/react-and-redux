@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default class NameList extends React.Component {
+import NameRow from './NameList/NameRow';
+
+export default class FilterableNameList extends React.Component {
   constructor() {
     super();
 
@@ -59,7 +61,7 @@ export default class NameList extends React.Component {
           // onFocus={this.handleClick}
           // onBlur={this.handleClick}
           type="text" />
-        {names.map((name) => <h3 key={name.id}><a href="#" onClick={this.handleClick}>{name.first_name} {name.last_name}</a></h3>)}
+        {names.map((name) => <NameRow key={name.id} name={name} />)}
       </div>
     )
   }

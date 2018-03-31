@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Timer from './Timer';
-import NameList from './NameList';
+import FilterableNameList from './FilterableNameList';
 
 export default class Layout extends React.Component {
 
@@ -20,7 +20,7 @@ export default class Layout extends React.Component {
 
         <Timer />
 
-        <NameList names={this.props.names} />
+      <FilterableNameList names={this.props.names} />
 
       </div>
     )
